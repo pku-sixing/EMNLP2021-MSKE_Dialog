@@ -20,7 +20,7 @@ Next, please download the following embedding to the path `dataset/embed/tencent
 - Chinese Tencent Embedding (please use the old v0.1.0 version)： [Tencent AI Lab Embedding Corpus for Chinese Words and Phrases](https://ai.tencent.com/ailab/nlp/en/download.html)
 
 
-#Scripts
+# Scripts
 
 The script for training is located at `scripts/train.sh`. 
 
