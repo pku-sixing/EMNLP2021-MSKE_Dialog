@@ -59,9 +59,9 @@ def parse_arguments():
                    help='field word vocab_path')
     p.add_argument('-csk_entity_vocab_path', type=str, default='data/entity_vocab.txt',
                    help='field word vocab_path')
-    p.add_argument('-csk_entity_embed_path', type=str, default='MultiSource/CCM/entity2vec.vec',
+    p.add_argument('-csk_entity_embed_path', type=str, default='data/entity2vec.vec',
                    help='field word vocab_path')
-    p.add_argument('-csk_relation_embed_path', type=str, default='MultiSource/CCM/relation2vec.vec',
+    p.add_argument('-csk_relation_embed_path', type=str, default='data/relation2vec.vec',
                    help='field word vocab_path')
     p.add_argument('-max_csk_num', type=int, default=202,
                    help='number of epochs for train')

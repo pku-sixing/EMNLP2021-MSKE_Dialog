@@ -11,13 +11,20 @@ TorchText==0.6.0
 ```
 
 
+# Dataset
+
+Please download dataset from here: [Google Drive](https://drive.google.com/file/d/13YBO63hPlXTYDdY13htdjEB4r3sY_7WB/view?usp=sharing)
+
+Next, please download the following embedding to the path `dataset/embed/tencent.txt`, or add the config `--pre_embed_file xxxx' to the script file.
+
+- Chinese Tencent Embedding (please use the old v0.1.0 version)： [Tencent AI Lab Embedding Corpus for Chinese Words and Phrases](https://ai.tencent.com/ailab/nlp/en/download.html)
+
+
 #Scripts
 
 The script for training is located at `scripts/train.sh`. 
 
 The script for inference is located at `scripts/infer.sh`.  The default decoding strategy is beam search.  We also provide a script that uses greedy search, please see `scripts/infer_no_beam.sh`
-
-
 
 
 
